@@ -6,7 +6,7 @@
   font-size: 60px;
   height: 150px;
   color: white;
-  min-width: 1420px;
+  min-width: 1480px;
   align-items: center;
 }
 
@@ -102,7 +102,7 @@
 .userInputSection {
   background-color: #E7E5D9;
   display: flex;
-  min-width: 1420px;
+  min-width: 1480px;
   height: 150px;
 }
 
@@ -190,7 +190,7 @@
   align-items: center;
   height: 50px;
   font-size: 20px;
-  min-width: 1420px;
+  min-width: 1480px;
   color: white;
 }
 
@@ -202,7 +202,7 @@
 .applicationList {
   display: flex;
   flex-direction: column;
-  min-width: 1420px;
+  min-width: 1480px;
   row-gap: 10px;
 }
 
