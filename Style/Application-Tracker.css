@@ -6,7 +6,7 @@
   font-size: 60px;
   height: 150px;
   color: white;
-  min-width: 1480px;
+  min-width: 1544px;
   align-items: center;
 }
 
@@ -102,7 +102,7 @@
 .userInputSection {
   background-color: #E7E5D9;
   display: flex;
-  min-width: 1445px;
+  min-width: 1544px;
   height: 150px;
 }
 
@@ -190,7 +190,7 @@
   align-items: center;
   height: 50px;
   font-size: 20px;
-  min-width: 1480px;
+  min-width: 1544px;
   color: white;
 }
 
@@ -202,14 +202,14 @@
 .applicationList {
   display: flex;
   flex-direction: column;
-  min-width: 1480px;
+  min-width: 1544px;
   row-gap: 10px;
 }
 
 .applicationList-Object {
   display: flex;
   flex-direction: row;
-  min-width: 1400px;
+  min-width: 1542px;
   border: 1px solid #D2B55B;
 }
 
@@ -289,6 +289,7 @@
   color: #909090;
   font-size: 25px;
   margin-top: 50px;
+  min-width: 1494px;
 }
 
 /************************/
