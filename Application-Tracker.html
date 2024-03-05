@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Application Tracker</title>
+    <link rel="stylesheet" href="Style/General.css">
+    <link rel="stylesheet" href="Style/Application-Tracker.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-Title">
+        Application Tracker
+      </div>
+      <div class="header-CountBoard">
+        Count Board
+      </div>
+      <div class="header-DeleteAll">
+        <button class="deleteAllButton" onclick="
+          resetFromRemoveAllButton();
+        ">
+          Remove All
+        </button>
+      </div>
+    </header>
+    <div class="userInputSection">
+      <div class="userInput">
+        <div class="userInput-Date">
+          <div class="userInput-Title-Date">
+            Date Applied
+          </div>
+          <div class="userInput-Input-Date">
+            <input type="date" class="inputDate js-inputDate">
+          </div>
+          <div class="userInput-Date-Message">
+            Please input a correct date
+          </div>
+        </div>
+        <div class="userInput-Company">
+          <div class="userInput-Title-Company">
+            Company
+          </div>
+          <div class="userInput-Input-Company">
+            <input type="text" placeholder="Company" class="inputCompany js-inputCompany">
+          </div>
+          <div class="userInput-Company-Message">
+            Please enter company name
+          </div>
+        </div>
+        <div class="userInput-Position">
+          <div class="userInput-Title-Position">
+            Position
+          </div>
+          <div class="userInput-Input-Position">
+            <input type="text" placeholder="Position" class="inputPosition js-inputPosition">
+          </div>
+          <div class="userInput-Position-Message">
+            Please enter position
+          </div>
+        </div>
+        <div class="userInput-Location">
+          <div class="userInput-Title-Location">
+            Location
+          </div>
+          <div class="userInput-Input-Location">
+            <input type="text" placeholder="Location" class="inputLocation js-inputLocation">
+          </div>
+          <div class="userInput-Location-Message">
+            Please enter location
+          </div>
+        </div>
+        <div class="userInput-Note">
+          <div class="userInput-Title-Note">
+            Note
+          </div>
+          <div class="userInput-Input-Note">
+            <input type="text" placeholder="Note" class="inputNote js-inputNote">
+          </div>
+        </div>
+        <div class="userInput-Status">
+          <div class="userInput-Title-Status">
+            Status
+          </div>
+          <div class="userInput-Input-Status">
+            <select name="inputStatus" id="inputStatus" class="inputStatus js-inputStatus">
+            </select>
+          </div>
+        </div>
+        <div class="userInput-Add">
+          <div class="userInput-Title-Add">
+          </div>
+          <div class="userInput-Input-Status">
+            <button class="AddButton js-AddButton">
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="title">
+      <div class="title-Date">
+        Date Applied
+      </div>
+      <div class="title-Company">
+        Company
+      </div>
+      <div class="title-Position">
+        Position
+      </div>
+      <div class="title-Location">
+        Location
+      </div>
+      <div class="title-Note">
+        Note
+      </div>
+      <div class="title-Status">
+        Status
+      </div>
+      <div class="title-Delete">
+        Remove
+      </div>
+    </div>
+    <div class="js-applicationList applicationList">
+    </div>
+    <div class="signature">
+      Designed by: Z. C. M
+    </div>
+    <script src="Script/Memory.js">
+    </script>
+    <script src="Script/Startup.js">
+    </script>
+    <script src="Script/Application-Tracker.js">
+    </script>
+  </body>
+</html>
